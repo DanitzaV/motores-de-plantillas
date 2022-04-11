@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Torta de helada",
+    "price": 11,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/christmas-new-year-vol-2-1/512/z6-cupcake-cake-holiday-512.png",
+    "id": 1
+  },
+  {
+    "title": "Torta waooo 2",
+    "price": 11,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/christmas-new-year-vol-2-1/512/z6-cupcake-cake-holiday-512.png",
+    "id": 2
+  },
+  {
+    "title": "torta chocolate",
+    "price": 14,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/christmas-new-year-vol-2-1/512/z6-cupcake-cake-holiday-512.png",
+    "id": 3
+  },
+  {
+    "title": "torta happy",
+    "price": 15,
+    "thumbnail": "https://cdn2.iconfinder.com/data/icons/christmas-new-year-vol-2-1/512/z6-cupcake-cake-holiday-512.png",
+    "id": 4
+  }
+]

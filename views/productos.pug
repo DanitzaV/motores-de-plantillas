@@ -1,0 +1,20 @@
+extends main.pug
+block append content
+  h1 Datos del producto
+  p
+    a(class="link", href="/")
+      p Agregar productos
+  if productos
+    table(class="table-products", border="solid")
+      tr
+        th Título
+        th Precio 
+        th Thumbnail
+      each producto in productos
+        tr
+          td #{producto.title}
+          td $#{producto.price}
+          td 
+            img(src=producto.thumbnail, alt=producto.title, style="height: auto; width: 100px;")
+  else
+    div(class="empty") No hay productos 

@@ -1,0 +1,16 @@
+extends main.pug
+block append content
+  h1 Ingrese Producto
+  form(action="/productos", method="post")
+    div(class="form-group")
+      label(for="title") Nombre
+      input(id="title", class="form-control", type="text", name="title")
+    div(class="form-group")
+      label(for="price") Precio 
+      input(id="price", class="form-control", type="number", name="price")
+    div(class="form-group")
+      label(for="thumbnail") Foto URL
+      input(id="thumbnail", class="form-control", type="text", name="thumbnail")
+    div(class="form-button")
+      button(class="btn btn-success") Enviar
+      a(class="btn btn-link", href="/productos") Ver listado de Productos

@@ -1,0 +1,61 @@
+body {
+    background-color: #E9ECEF;
+}
+
+h1 {
+    color: #2817FF;
+}
+
+.table-products {
+    background-color: #353A40;
+    color: #fff;
+    width: 100%;
+    max-width: 400px;
+}
+
+td, th {
+    border: none;
+}
+
+tr td  {
+    text-align: center;
+}
+
+table {
+    padding-top: 0.5rem;
+}
+
+td img {
+    max-width: 64px;
+    margin-bottom: 8px;
+}
+
+tbody tr {
+   padding: 0.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input {
+    max-width: 200px;
+    margin: 0.5rem 0;
+}
+
+button.btn-success {
+    background-color: #29A745;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.btn-link {
+    margin-left: 1rem;
+    color: black;
+}
+
+.link {
+    color: black;
+}
